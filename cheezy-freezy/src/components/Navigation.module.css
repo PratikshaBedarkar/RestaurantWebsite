@@ -1,0 +1,33 @@
+.nav {
+  list-style-type: none;
+  background-color: rgba(243, 129, 91);
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.nav-item{
+    float: left;
+} 
+
+.nav-item a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  padding: 16px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.nav-item a:hover {
+  background-color: #fdd6c0;
+}
+
+.nav-item:last-child{
+  float: right;
+  margin-right: 5%;
+} 
+
+
+
+

@@ -1,0 +1,48 @@
+.footer{
+    overflow: hidden;
+    background-color: #f3815b;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+@media screen and (max-width:600px) {
+    .footer{
+        overflow: hidden;
+        background-color: #f3815b;
+        display: grid;
+        grid-template-columns: 1fr;
+    
+    }
+    
+}
+
+.footer section{
+    text-align: center;
+}
+
+.socials{
+    grid-column: 1 / span 3;
+    grid-row: 2;
+    justify-self: center;
+}
+
+.socials ul{
+    list-style-type: none;
+    overflow: hidden;
+    align-self: center;
+}
+
+.socials li{
+    float: left;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 0 2px
+}
+
+.socials a{
+    padding: 5px
+}
+
