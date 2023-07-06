@@ -40,9 +40,11 @@ function MenuItem(props) {
         <img src={imagePath} alt={props.name} className={classes.img}/>
       </div>
       <li className={classes.item} key={props.id}>
-        <h3>{props.name}</h3>
-        <p>{price}</p>
+        <h3 className={classes.name}>{props.name}</h3>
+        <p className={classes.rating}>3.8</p>
         <p className={classes.description}>{props.description}</p>
+        <p className={classes.price}>{price}</p>
+        
       </li>
       <form className={classes.form} onSubmit={submitHandler}>
         <Button>Add to Cart</Button>

@@ -4,31 +4,44 @@
     border-radius: 5px;
     margin: 2px;
     display: grid;
-    grid-template-rows: 1fr 0.5fr auto
+    grid-template-rows: 50% auto 15%;
 }
 
 
 .item{
     list-style-type: none;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-content: center;
-    text-align: center;
+    grid-template-columns: 0.7fr 0.3fr;
+    align-items: center;
+  }
 
-    
-}
-
-.item h3, .item p{
-    margin: 5% 0;
+.name{
+    font-weight: bold;
+    margin:  0 0 0 10%
 }
 
 .description{
-    grid-column: 1 / span 2;
+    margin: 0 0 5% 10%;
+    font-size: 90%;
+}
+
+.rating{
+    justify-self: end;
+    margin: 5% 10% 0 0;
+    font-size: 90%;
+}
+
+.price{
+    justify-self: end;
+    margin: 0 10% 5% 0;
+    font-size: 90%;
 
 }
 
 .form{
     text-align: center;
+    align-items: end;
+    
 }
 
 @media screen and (min-width:601px) {
