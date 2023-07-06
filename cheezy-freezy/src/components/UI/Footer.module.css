@@ -27,19 +27,24 @@
     justify-self: center;
 }
 
+@media screen and (max-width:600px) {
+    .socials{
+        grid-column: 1 / span 1;
+        grid-row : 4;
+        justify-self: center;
+    }
+}
+
 .socials ul{
     list-style-type: none;
     overflow: hidden;
     align-self: center;
+    padding: 0;
 }
 
 .socials li{
     float: left;
-    background-color: black;
-    color: white;
-    border: 1px solid black;
-    border-radius: 15px;
-    margin: 0 2px
+    margin: 0 4px
 }
 
 .socials a{

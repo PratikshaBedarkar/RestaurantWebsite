@@ -1,4 +1,5 @@
 import styles from "./Footer.module.css"
+import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
 const Footer = () => {
     return(
         <>
@@ -21,10 +22,10 @@ const Footer = () => {
             </section>
             <section className={styles.socials}>
                 <ul>
-                    <li><a>f</a></li>
-                    <li><a>in</a></li>
-                    <li><a>Ig</a></li>
-                    <li><a>T</a></li>
+                    <li><FaFacebook/></li>
+                    <li><FaTwitter/></li>
+                    <li><FaLinkedin/></li>
+                    <li><FaInstagram/></li>
                 </ul>
             </section>
         </footer>
